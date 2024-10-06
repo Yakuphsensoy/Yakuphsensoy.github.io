@@ -54,6 +54,12 @@ samp {
     font-size: 1em
 }
 
+.mail a {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
 a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects

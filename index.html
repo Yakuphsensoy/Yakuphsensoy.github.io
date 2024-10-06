@@ -1,152 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Metadata of the Webpage -->
-    <!-- Character-set Metadata -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Viewport Metadata -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Description Metadata-->
-    <meta name="description" content="Portfolio Website" />
-    <!-- Author Metadata -->
-    <meta name="author" content="Yakup Şensoy" />
-    <!-- Keyword Metadata -->
-    <meta
-      name="keywords"
-      content="Yakup, Şensoy, Yakup Şensoy"
-    />
-    <!-- Webpage Logo -->
-    <link rel="shortcut icon" href="./assets/img/favicon-16x16.png" />
-    <!-- Webpage Title -->
-    <title>Yakup ŞENSOY</title>
 
-    <!-- Import CSS: Main Stylesheet -->
-    <link rel="stylesheet" href="./assets/css/main.css" />
-  </head>
+<head>
+  <!-- Metadata of the Webpage -->
+  <!-- Character-set Metadata -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Viewport Metadata -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Description Metadata-->
+  <meta name="description" content="Portfolio Website" />
+  <!-- Author Metadata -->
+  <meta name="author" content="Yakup Şensoy" />
+  <!-- Keyword Metadata -->
+  <meta name="keywords" content="Yakup, Şensoy, Yakup Şensoy" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+  <!-- Webpage Logo -->
+  <link rel="shortcut icon" href="./assets/img/favicon-16x16.png" />
+  <!-- Webpage Title -->
+  <title>Yakup ŞENSOY</title>
 
-  <body>
-    <div id="particles-js">
-      <div class="header">
-        <h1>
-          <span class="site-title">YAKUP ŞENSOY</span>
-          <span class="site-description">Software Developer</span>
-        </h1>
-        <div class="header-icons">
-          <a aria-label="My YouTube Channel" target="_blank" href="https://www.youtube.com/channel/UCTgeTmRWlD3FzM_TDH7wkNA">
-            <i class="icon fa fa-youtube" aria-hidden="true"></i>
-          </a>
-           <a aria-label="My Twitch Channel" target="_blank" href="https://www.twitch.tv/yakupsensoy">
-             <i class="icon fa fa-twitch" aria-hidden="true"></i>
-          </a>
-          <a aria-label="My Instagram Profile" target="_blank" href="https://www.instagram.com/yakup.sensoy/">
-            <i class="icon fa fa-instagram" aria-hidden="true"></i>
-          </a>
-          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/yakup-%C5%9Fensoy-9b5068256/">
-            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
-          </a>
-          <a aria-label="My Github Profile" target="_blank" href="https://github.com/Yakuphsensoy">
-            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
-          </a>
-          <a aria-label="My Résumé" target="_blank" href="">
-            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
-          </a>
-          <a aria-label="Send Email" href="mailto:yakup.sensoy@hotmail.com" target="_blank"
-            ><i class="icon fa fa-envelope"></i
-          ></a>
-        </div>
-        <div class="header-links">
-          <a class="link" href="#about" data-scroll>Hakkımda</a>
-        </div>
+  <!-- Import CSS: Main Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+  <div id="particles-js">
+    <div class="header">
+      <h1>
+        <span class="site-title">YAKUP ŞENSOY</span>
+        <span class="site-description">Software Developer</span>
+      </h1>
+      <div class="header-icons">
+        <a aria-label="My YouTube Channel" target="_blank"
+          href="https://www.youtube.com/channel/UCTgeTmRWlD3FzM_TDH7wkNA">
+          <i class="icon fa fa-youtube" aria-hidden="true"></i>
+        </a>
+        <a aria-label="My LinkedIn Profile" target="_blank"
+          href="https://www.linkedin.com/in/yakup-%C5%9Fensoy-9b5068256/">
+          <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a aria-label="My Github Profile" target="_blank" href="https://github.com/Yakuphsensoy">
+          <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+        </a>
+        <a aria-label="My Résumé" target="_blank" href="/assets/Yakup-Şensoy-FlowCV-Resume-20241003.pdf">
+          <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+        </a>
+        <a aria-label="Send Email" href="mailto:yakup.sensoy@hotmail.com" target="_blank"><i
+            class="icon fa fa-envelope"></i></a>
       </div>
-      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+      <div class="mail">
+        <p>
+          Bana Ulaşın: <a href="mailto:yakup.sensoy@hotmail.com">yakup.sensoy@hotmail.com</a>
+        </p>
+      </div>
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>Hakkımda</a>
+      </div>
+    </div>
+    <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <!-- User Introduction-->
+    <div class="user-details">
+      <h1>Hakkımda</h1>
+      <picture>
+        <img src="./assets/img/jpg/WhatsApp Görsel 2024-10-03 saat 23.54.04_5fb6e34e.jpg" alt="Professional Me"
+          width="20%" style="border-radius: 50%" />
+      </picture>
+      <p>
+        Merhaba, ben Yakup Şensoy. Düzce Üniversitesi Bilgisayar Programcılığı bölümünde öğrenciyim. Aynı zamanda bir
+        sene
+        gittiğim
+        Ecole 42'de edindiğim yazılım geliştirme deneyimi ile algoritmaları optimize etme ve takım çalışması
+        yeteneklerimi geliştirdim. Özellikle C dilinde yoğunlaşarak, kompleks problemleri çözmek için güçlü bir temel
+        oluşturdum.
+        Bu sağlam temel, yazılım geliştirme alanındaki yeteneklerimi şekillendirdi ve şu an web geliştirme konusunda
+        kendimi geliştirmeye odaklanıyorum. HTML, CSS, JavaScript, React ve
+        React Query (TanStack) gibi temel web teknolojilerini öğreniyor ve bu alandaki becerilerimi derinleştirmek için
+        projeler üstünde çalışıyorum.
+      </p>
     </div>
 
-    <!-- About Section -->
-    <section id="about">
-      <!-- User Introduction-->
-      <div class="user-details">
-        <h1>Hakkımda</h1>
-        <picture>
-          <source
-            type="image/webp"
-            srcset="./assets/img/webp/myself.webp"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-          <img
-            src="./assets/img/jpg/Professional-Picture-Me.jpg"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-        </picture>
-        <p>
-          Merhaba 👋 ben Yakup. Düzce Üniversitesinde Bilgisayar Programcılığı bölümünde, aynı zamanda Ecole 42 Kocaeli yazılım okulunda öğrenim görüyorum.
-          Kendi yaşantımdan kesitler çekip yayınladığım küçük bir Youtube kanalım var. Twitch de ara sıra canlı yayınlar yapıyorum. Benim sosyal ağlarımı görmek isterseniz 
-          yukarıdaki ikonlardan ulaşabilirsiniz. 
-              </p>
+    <!-- User Specifics -->
+    <div class="user">
+      <!-- Technology Stack #1: Languages -->
+      <div class="tech">
+        <h2>Diller</h2>
+
+        <i class="devicon-csharp-plain-wordmark"></i>
+        <i class="devicon-cplusplus-plain colored"></i>
+        <i class="devicon-javascript-plain colored"></i>
+        <i class="devicon-c-plain-wordmark colored"></i>
+        <p>Benim Kullandığım Diller</p>
       </div>
 
-      <!-- User Specifics -->
-      <div class="user">
-        <!-- Technology Stack #1: Languages -->
-        <div class="tech">
-          <h2>Diller</h2>
-          
-          <i class="devicon-csharp-plain-wordmark"></i>
-          <i class="devicon-cplusplus-plain colored"></i>
-          <i class="devicon-javascript-plain colored"></i>
-          <i class="devicon-c-plain-wordmark colored"></i>
-          <p>Benim Kullandığım Diller</p>
-        </div>
+      <!-- Technology Stack #2: Front-End -->
+      <div class="tech">
+        <h2>Front-End</h2>
 
-        <!-- Technology Stack #2: Front-End -->
-        <div class="tech">
-          <h2>Front-End</h2>
-          
-          <i class="devicon-react-original colored"></i>
-          <i class="devicon-bootstrap-plain-wordmark colored"></i>
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
-          <p>Front-end </p>
-        </div>
-
-        <!-- Technology Stack #3: Back-End -->
-        <div class="tech">
-          <h2>Back-End</h2>
-          
-          <i class="devicon-nodejs-plain colored"></i>
-          <i class="devicon-csharp-plain-wordmark"></i>
-          <i class="devicon-c-plain-wordmark colored"></i>
-          <i class="devicon-cplusplus-plain colored"></i>
-          <p>Back-end</p>
-        </div>
-
-        <!-- Technology Stack #4: Tools -->
-        <div class="tech">
-          <h2>Tools</h2>
-          <i class="devicon-git-plain-wordmark colored"></i>
-          <i class="devicon-visualstudio-plain colored"></i>
-          <i class="devicon-github-plain-wordmark colored"></i>
-          <i class="devicon-vscode-plain-wordmark colored"></i>
-          <p>Tools.</p>
-        </div>
+        <i class="devicon-react-original colored"></i>
+        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+        <i class="devicon-html5-plain-wordmark colored"></i>
+        <i class="devicon-css3-plain-wordmark colored"></i>
+        <p>Front-end </p>
       </div>
-    </section>
 
-    <footer class="footer">
-      <p>&copy; Yakup ŞENSOY, 2023</p>
-    </footer>
+      <!-- Technology Stack #3: Back-End -->
+      <div class="tech">
+        <h2>Back-End</h2>
 
-    <!-- Import JS: Particles Theme -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <!-- Import JS: Sweet Scroll -->
-    <script src="./assets/js/sweet-scroll.min.js"></script>
-    <!-- Import JS: Google Analytics -->
-    <script src="./assets/js/google-analytics.js"></script>
-    <!-- Import JS: Main Script -->
-    <script src="./assets/js/main.js"></script>
+        <i class="devicon-nodejs-plain colored"></i>
+        <i class="devicon-csharp-plain-wordmark"></i>
+        <i class="devicon-c-plain-wordmark colored"></i>
+        <i class="devicon-cplusplus-plain colored"></i>
+        <p>Back-end</p>
+      </div>
+
+      <!-- Technology Stack #4: Tools -->
+      <div class="tech">
+        <h2>Tools</h2>
+        <i class="devicon-git-plain-wordmark colored"></i>
+        <i class="devicon-visualstudio-plain colored"></i>
+        <i class="devicon-github-plain-wordmark colored"></i>
+        <i class="devicon-vscode-plain-wordmark colored"></i>
+        <p>Tools.</p>
+      </div>
+    </div>
+  </section>
+  <h1 class="user-details">Projelerim</h1>
+  <style>
+    /* Carousel basic styles */
+    .carousel {
+      position: relative;
+      width: 80%;
+      margin: 50px auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slides img {
+      width: 100%;
+      object-fit: cover;
+      /* Ensures the image covers the area while maintaining aspect ratio */
+      border-radius: 10px;
+    }
+
+    .slides a {
+      width: 100%;
+      /* Each image takes full width of the container */
+      flex-shrink: 0;
+    }
+
+    /* Hide radio inputs */
+    input[name="slide"] {
+      display: none;
+    }
+
+    /* Navigation Arrows */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      background-color: rgba(0, 0, 0, 0.5);
+      user-select: none;
+    }
+
+    .next {
+      right: 10px;
+    }
+
+    .prev {
+      left: 10px;
+    }
+
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Manual Navigation Styles */
+    .navigation-manual {
+      position: absolute;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      bottom: 10px;
+    }
+
+    .manual-btn {
+      border: 2px solid #fff;
+      padding: 5px;
+      border-radius: 50%;
+      cursor: pointer;
+      margin: 0 5px;
+      transition: background 0.3s ease;
+    }
+
+    .manual-btn:hover {
+      background-color: #fff;
+    }
+
+    /* Slide Transitions */
+    #slide1:checked~.slides {
+      transform: translateX(0%);
+    }
+
+    #slide2:checked~.slides {
+      transform: translateX(-100%);
+    }
+
+    #slide3:checked~.slides {
+      transform: translateX(-200%);
+    }
+
+    #slide4:checked~.slides {
+      transform: translateX(-300%);
+    }
+
+    #slide5:checked~.slides {
+      transform: translateX(-400%);
+    }
+
+    /* Set carousel height dynamically */
+    .carousel img {
+      max-height: 400px;
+      /* You can set a max height based on your preferred size */
+    }
+  </style>
+
+  <body>
+    <div class="carousel">
+      <!-- Radio Buttons for each slide -->
+      <input type="radio" name="slide" id="slide1" checked>
+      <input type="radio" name="slide" id="slide2">
+      <input type="radio" name="slide" id="slide3">
+      <input type="radio" name="slide" id="slide4">
+      <input type="radio" name="slide" id="slide5">
+
+      <!-- Slides -->
+      <div class="slides">
+        <a href="https://cheeseecomerce.netlify.app/" target="_blank">
+          <img src="/assets/img/1.png" alt="Project 1">
+        </a>
+        <a href="https://mypray.netlify.app/" target="_blank">
+          <img src="/assets/img/2.png" alt="Project 2">
+        </a>
+        <a href="https://rainweatherapp.netlify.app/" target="_blank">
+          <img src="/assets/img/3.png" alt="Project 3">
+        </a>
+        <a href="https://rickandmortyfilter.netlify.app/" target="_blank">
+          <img src="/assets/img/4.png" alt="Project 4">
+        </a>
+        <a href="https://elonspendingmoney.netlify.app/" target="_blank">
+          <img src="/assets/img/5.png" alt="Project 5">
+        </a>
+      </div>
+
+      <!-- Arrows for navigation -->
+      <a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+      <a class="next" onclick="moveSlides(1)">&#10095;</a>
+
+      <!-- Manual Navigation -->
+      <div class="navigation-manual">
+        <label for="slide1" class="manual-btn"></label>
+        <label for="slide2" class="manual-btn"></label>
+        <label for="slide3" class="manual-btn"></label>
+        <label for="slide4" class="manual-btn"></label>
+        <label for="slide5" class="manual-btn"></label>
+      </div>
+    </div>
+
+    <script>
+      let currentSlide = 1;
+
+      function moveSlides(n) {
+        currentSlide += n;
+        if (currentSlide > 5) currentSlide = 1;
+        if (currentSlide < 1) currentSlide = 5;
+        document.getElementById(`slide${currentSlide}`).checked = true;
+      }
+    </script>
   </body>
+
+
+
+  <footer class=" footer">
+    <p>&copy; Yakup ŞENSOY, 2024</p>
+  </footer>
+
+  <!-- Import JS: Particles Theme -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- Import JS: Sweet Scroll -->
+  <script src="./assets/js/sweet-scroll.min.js"></script>
+  <!-- Import JS: Google Analytics -->
+  <script src="./assets/js/google-analytics.js"></script>
+  <!-- Import JS: Main Script -->
+  <script src="./assets/js/main.js"></script>
+</body>
+
 </html>
